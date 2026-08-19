@@ -2,9 +2,9 @@ num=num1=int(input("Enter a number: "))
 
 #negative-positive
 if num>0:
-    print (num," is a positive number.")
+    print (num,"is a positive number.")
 elif num<0:
-    print (num," is a negative number.")
+    print (num,"is a negative number.")
 else:
     print ('"Zero" is neither positive nor negative.')
 	
@@ -16,16 +16,16 @@ for i in range (1,limit+1,2):
     print (i, end=" ")
     n+=1
     s+=i
-print ("\nnumber of odd: ",n)
-print ("sum of odd: ",s)
+print ("\nnumber of odd:",n)
+print ("sum of odd:",s)
 print (f"\nAll Even Numbers in range (1-{limit}):")
 n=s=0
 for i in range (2,limit+1,2):
     print (i, end=" ")
     n+=1
     s+=i
-print ("\nnumber of even: ",n)
-print("sum of even: ",s)
+print ("\nnumber of even:",n)
+print("sum of even:",s)
 
 #greaset number (nested)
 print ("\nEnter Numbers:")
