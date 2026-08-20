@@ -61,8 +61,8 @@ al= int(input("Algorithms: "))
 total= (py+c+ds+al)
 avg= total/4
 
-print ("Total Marks: ",total,"\nAverage Marks: ",avg)
-print ("Grade: ",end="")
+print ("Total Marks:",total,"\nAverage Marks:",avg)
+print ("Grade:",end="")
 
 if avg>=80:
     print("A")
