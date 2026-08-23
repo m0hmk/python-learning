@@ -11,7 +11,7 @@ for i in a:
         result=True
         break
 if result:
-    print("The number you entered is founded in the list.")
+    print("The number you entered is in the list.")
 else:
-    print("The number you entered is not founded in the list.")
+    print("The number you entered isn't in the list.")
      
