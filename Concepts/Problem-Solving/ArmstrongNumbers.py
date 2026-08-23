@@ -7,7 +7,7 @@ power=list(range(10))
 #create function
 def armstrong (n):
     global pl,power
-    if n<0:
+    if n<1:
         return False
     n1=n
     a=0
